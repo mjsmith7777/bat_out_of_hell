@@ -489,6 +489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda86884ed923dd4aba7bfdd6347a2c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rcsThrust: 100
+  mainThrust: 60
 --- !u!114 &114294242572227762
 MonoBehaviour:
   m_ObjectHideFlags: 1
