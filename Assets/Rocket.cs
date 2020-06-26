@@ -1,12 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour {
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 60f;
     Rigidbody rigidBody;
     AudioSource audioSource;
+
+    enum State
+    {
+        Alive,
+        Dying,
+        Transcending
+    }
+
+    State state = State.Alive;
 
 	// Use this for initialization
 	void Start () {
@@ -61,13 +69,13 @@ public class Rocket : MonoBehaviour {
         switch(collision.gameObject.tag)
         {
             case "Friendly":
-                print ("Safe");
+                //Do Nothing
                 break;
-            case "Fuel":
-                print ("Fuel");
+            case "Finish":
+                SceneManager.LoadScene(1);
                 break;
             default:
-                print("Dead");
+                SceneManager.LoadScene(0);
                 break;
         }
     }
