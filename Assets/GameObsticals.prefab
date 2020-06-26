@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23559241253553610}
   m_Layer: 0
   m_Name: Obstical2 (1)
-  m_TagString: Destroy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 23302245319125780}
   m_Layer: 0
   m_Name: Obstical2
-  m_TagString: Destroy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 23630169324498490}
   m_Layer: 0
   m_Name: Obstical1 (1)
-  m_TagString: Destroy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 23236820301951266}
   m_Layer: 0
   m_Name: Obstical1
-  m_TagString: Destroy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

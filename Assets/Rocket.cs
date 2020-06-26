@@ -7,7 +7,8 @@ public class Rocket : MonoBehaviour {
     [SerializeField] float mainThrust = 60f;
     Rigidbody rigidBody;
     AudioSource audioSource;
-    Shields health = new Shields();
+    int currentHealth = 100;
+    int damage = 10;
 
     enum State
     {
@@ -69,7 +70,7 @@ public class Rocket : MonoBehaviour {
 
     void OnCollisionEnter(Collision collision)
     {
-        switch(collision.gameObject.tag)
+        switch (collision.gameObject.tag)
         {
             case "Friendly":
                 //Do Nothing
@@ -78,11 +79,34 @@ public class Rocket : MonoBehaviour {
                 SceneManager.LoadScene(1);
                 break;
             default:
-                health.TakeDamage();
-                health.Death();
+                TakeDamage();
+                print(currentHealth);
+                Death();
                 break;
         }
+    }
 
-     }
+    private void TakeDamage()
+    {
+        currentHealth = currentHealth - damage;
+    }
+
+    private void GainHealth()
+    {
+        currentHealth = currentHealth + 5;
+    }
+
+    private void Death()
+    {
+        if (currentHealth == 0)
+        {
+            SceneManager.LoadScene(0);
+            currentHealth = 100;
+        }
+        else
+        {
+            //Do nothing
+        }
+    }
 
 }

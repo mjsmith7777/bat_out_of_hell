@@ -185,119 +185,37 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalPosition.x
       value: 3.26659
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalPosition.y
       value: 10.191059
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalPosition.z
       value: -11.917481
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
+    - target: {fileID: 4129851589734998, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
       propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 224739212116265286, guid: 8ce9290a2ec9f774b82c20c5ade10f50,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 164.32916
-      objectReference: {fileID: 0}
-    - target: {fileID: 4175809556320754, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.0380301
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060471740805730, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 157.4652
-      objectReference: {fileID: 0}
-    - target: {fileID: 224739212116265286, guid: 8ce9290a2ec9f774b82c20c5ade10f50,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 2.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1952725144062338, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Destroy
-      objectReference: {fileID: 0}
-    - target: {fileID: 1952725144062338, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1987612949802110, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494082393273924, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Friendly
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317354045838342, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 5.2043037
-      objectReference: {fileID: 0}
-    - target: {fileID: 4317354045838342, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4115976269183888, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4692389283953272, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -27.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4851223027289382, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 24.244293
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013749018944276, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 10.869518
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013749018944276, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 5.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4013749018944276, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1080335540864352, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1370722854117734, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1287840106510362, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1443971138621500, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
-      propertyPath: m_TagString
-      value: Untagged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ce9290a2ec9f774b82c20c5ade10f50, type: 2}
