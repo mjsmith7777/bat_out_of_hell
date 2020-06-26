@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class Rocket : MonoBehaviour {
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 60f;
     Rigidbody rigidBody;
     AudioSource audioSource;
+    Shields health = new Shields();
 
     enum State
     {
@@ -16,14 +18,15 @@ public class Rocket : MonoBehaviour {
 
     State state = State.Alive;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+        
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
         Rotate();
         Thrust();
@@ -36,7 +39,7 @@ public class Rocket : MonoBehaviour {
         float rotationThisFrame = rcsThrust * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.A))
-        {          
+        {
             transform.Rotate(Vector3.forward * rotationThisFrame);
         }
         else if (Input.GetKey(KeyCode.D))
@@ -75,8 +78,11 @@ public class Rocket : MonoBehaviour {
                 SceneManager.LoadScene(1);
                 break;
             default:
-                SceneManager.LoadScene(0);
+                health.TakeDamage();
+                health.Death();
                 break;
         }
-    }
+
+     }
+
 }
