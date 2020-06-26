@@ -21,6 +21,7 @@ internal class Shields
         if (currentHealth <= 0)
         {
             SceneManager.LoadScene(0);
+            currentHealth = 100;
         }
         else
         {
